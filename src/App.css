@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a:link{  /* 방문전 상태 */
+  text-decoration: none; /* 밑줄 삭제 */
+  color: #555555;
+}
+
+a:visited{  /* 방문후 상태 */
+  text-decoration: none; /* 밑줄 삭제 */
+  color: #555555;
+}
+
+a:hover{  /* A 태그에 마우스가 올라간 상태 */
+  text-decoration: none; /* 밑줄 출력 */
+  color: #7777FF;
+}
+
+a:active{  /* A 태그를 클릭한 상태 */
+  text-decoration: none; /* 밑줄 출력 */
+  color: #7777FF;
+}
+
+li {
+  list-style: none;
+}
+
+.table_basic {
+  border: solid 1px #AAAAAA; 
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+.table_center {
+  width: 70%;
+  border: none; 
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+.table_underline {
+  border-top: none;
+  border-right: none;
+  border-bottom: solid 1px #AAAAAA; 
+  border-left: none;
+}
+
+* {
+  padding: 0px;
+  margin: 5px 0px;
+}
